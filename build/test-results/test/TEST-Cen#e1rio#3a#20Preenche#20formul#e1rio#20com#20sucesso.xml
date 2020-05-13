@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cenário: Preenche formulário com sucesso" tests="5" skipped="0" failures="2" errors="0" timestamp="2019-11-16T13:08:59" hostname="WBA0443" time="6.498">
+  <properties/>
+  <testcase name="Dado que estou na tela do formulario" classname="Cenário: Preenche formulário com sucesso" time="0.0"/>
+  <testcase name="Quando quando preencher os dados do cadastro corretamente" classname="Cenário: Preenche formulário com sucesso" time="0.0"/>
+  <testcase name="E enviar o cadastro" classname="Cenário: Preenche formulário com sucesso" time="0.0"/>
+  <testcase name="Então devo ver os dados enviados" classname="Cenário: Preenche formulário com sucesso" time="0.001">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;Aladi[7]n&gt; but was:&lt;Aladi[]n&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Aladi[7]n&gt; but was:&lt;Aladi[]n&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.CadastroSteps.devo_ver_os_dados_enviados(CadastroSteps.java:30)
+	at ✽.Então devo ver os dados enviados(cadastro.feature:9)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="Cenário: Preenche formulário com sucesso" time="7.396">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;Aladi[7]n&gt; but was:&lt;Aladi[]n&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Aladi[7]n&gt; but was:&lt;Aladi[]n&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.CadastroSteps.devo_ver_os_dados_enviados(CadastroSteps.java:30)
+	at ✽.Então devo ver os dados enviados(cadastro.feature:9)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
